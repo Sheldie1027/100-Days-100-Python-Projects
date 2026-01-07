@@ -32,13 +32,13 @@ def play_game():
             print(f"Incorrect! {attempts} attempts left.")
 
     if "_" not in guessed:
-        print(f"\n🎉 Congrats! You found the word: {word}")
+        print(f"\n Congrats! You found the word: {word}")
     else:
-        print(f"\n💀 Game over! The word was: {word}")
+        print(f"\n Game over! The word was: {word}")
 
 while True:
     play_game()
     play_again = input("\nDo you want to play again? (y/n): ").lower()
     if play_again != "y":
-        print("Thanks for playing! Goodbye 👋")
+        print("Thanks for playing! Goodbye")
         break
