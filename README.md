@@ -16,6 +16,7 @@ DAY 2: House Loan Calculator:
 Made a house loan calculator, fairly easy as it was only implementing the math formula. Used babel package to get the output in indian currency system.
 
 DAY 3: If Else Game (Random Word Guesser0):
-Made a random word guesser that gives 6 attempts to guess a random word, each time a letter is inputed, it will either show up in the empty places of the word, if it is a part of it, or it will reduce the number of attempts and ask you to try again.
+Made a random word guesser that gives 6 attempts to guess a random word, each time a letter is inputted, it will either show up in the empty places of the word, if it is a part of it, or it will reduce the number of attempts and ask you to try again.
 Once all the letters are found, it will display the word along with a congratulatory message or show the word with a message saying that you lost.
 Planning to use a dictionary package as well, so that at the end it will display the meaning of the random word.
+##Update##: could not add the dictionary part as many words were not found in it. Made improvements to the game instead such as validating the user input, showing the already guessed letters and option to replay the game.
